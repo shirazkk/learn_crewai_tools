@@ -1,0 +1,22 @@
+[project]
+name = "crewai-tool-topic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shiraz Ali", email = "shirazkk8@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "crewai>=0.102.0",
+    "crewai-tools>=0.36.0",
+]
+
+[project.scripts]
+crewai-tool-topic = "crewai_tool_topic:main"
+cricket = "crewai_tool_topic.main:kickoff"
+img = "crewai_tool_topic.main2:kickoff"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
