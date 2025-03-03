@@ -16,6 +16,8 @@ dependencies = [
 crewai-tool-topic = "crewai_tool_topic:main"
 cricket = "crewai_tool_topic.main:kickoff"
 img = "crewai_tool_topic.main2:kickoff"
+custom_tool = "crewai_tool_topic.main3:kickoff"
+pass_tool = "crewai_tool_topic.main4:kickoff"
 
 [build-system]
 requires = ["hatchling"]
