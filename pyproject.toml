@@ -18,6 +18,8 @@ cricket = "crewai_tool_topic.main:kickoff"
 img = "crewai_tool_topic.main2:kickoff"
 custom_tool = "crewai_tool_topic.main3:kickoff"
 pass_tool = "crewai_tool_topic.main4:kickoff"
+prime_number = "crewai_tool_topic.main5:kickoff"
+process = "crewai_tool_topic.crew_process:kickoff"
 
 [build-system]
 requires = ["hatchling"]
